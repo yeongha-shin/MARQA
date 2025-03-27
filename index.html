@@ -149,7 +149,7 @@
           <h3 class="title is-4">Scenario Generation</h3>         
           <!-- 이미지 추가 -->
           <figure class="image" style="margin-bottom: 0;"> 
-            <img src="static/images/Figure1.png" alt="Image Description" style="width:100%; height:auto;">
+            <img src="static/images/Figure1.png" alt="Image Description" style="width:50%; height:auto;">
             <figcaption style="text-align: center; font-size: 14px; color: #666; margin-top: 0;">
               Graphical representation of the TC-CBF. TC-CBF generates an obstacle-avoiding trajectory by selecting the ego ship's turning circle direction.
             </figcaption>
@@ -158,7 +158,7 @@
           <h3 class="title is-4">Top K Scenario Selection</h3>
           <!-- 이미지 추가 -->
           <figure class="image" style="margin-bottom: 0;">
-            <img src="static/images/Figure2.png" alt="Image Description" style="max-width:100%; height: auto;">
+            <img src="static/images/Figure2.png" alt="Image Description" style="max-width:50%; height: auto;">
             <figcaption style="text-align: center; font-size: 14px; color: #666; margin-top: 0;">
               Representation into vector space. The results generated from Scenario Generation are stored in a vector space with three components: COLREG Score, Safety Score, and Efficiency Score. Subsequently, the most promising $K$ scenarios are selected. 
             </figcaption>
@@ -167,7 +167,7 @@
           <h3 class="title is-4">Answer Generation</h3>         
           <!-- 이미지 추가 -->
           <figure class="image" style="margin-bottom: 0;">
-            <img src="static/images/Figure3.png" alt="Image Description" style="max-width:100%; height: auto;">
+            <img src="static/images/Figure3.png" alt="Image Description" style="max-width:50%; height: auto;">
             <figcaption style="text-align: center; font-size: 14px; color: #666; margin-top: 0;">
               Input and Output Prompts. The input prompt includes the Top K scenarios, previous dialogue, environmental data, and question from target ship. The LLM infers the optimal and suboptimal scenarios and generates the response after evaluating COLREG compliance.
             </figcaption>
